@@ -1,0 +1,159 @@
+{
+  "parent": "tut:story/get_full_iron",
+  "criteria": {
+    "diamond_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.get_full_diamond.description",
+      "fallback": "Get full Diamond Tools and Armor"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond_axe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.get_full_diamond.title",
+      "fallback": "Full Diamond"
+    }
+  },
+  "requirements": [
+    [
+      "diamond_sword"
+    ],
+    [
+      "diamond_pickaxe"
+    ],
+    [
+      "diamond_axe"
+    ],
+    [
+      "diamond_shovel"
+    ],
+    [
+      "diamond_hoe"
+    ],
+    [
+      "diamond_helmet"
+    ],
+    [
+      "diamond_chestplate"
+    ],
+    [
+      "diamond_leggings"
+    ],
+    [
+      "diamond_boots"
+    ]
+  ]
+}

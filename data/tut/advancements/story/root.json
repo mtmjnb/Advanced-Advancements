@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "planks": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/dirt.png",
+    "description": {
+      "translate": "advancements.story.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.story.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "planks"
+    ]
+  ]
+}

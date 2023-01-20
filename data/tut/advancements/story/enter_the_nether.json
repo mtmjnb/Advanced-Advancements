@@ -1,0 +1,31 @@
+{
+  "parent": "tut:story/craft_wooden_pickaxe",
+  "criteria": {
+    "entered_nether": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.enter_the_nether.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.enter_the_nether.title"
+    }
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ]
+  ]
+}

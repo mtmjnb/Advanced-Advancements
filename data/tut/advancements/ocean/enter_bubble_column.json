@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "bubble": {
+      "trigger": "enter_block",
+      "conditions": {
+        "block": "minecraft:bubble_column"
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "advancements.ocean.enter_bubble_column.title",
+      "fallback": "Bubble"
+    },
+    "description": {
+      "translate": "advancements.ocean.enter_bubble_column.description",
+      "fallback": "Place a Magma Block or Soul Sand to make Bubbles"
+    },
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true
+  },
+  "parent": "tut:ocean/root",
+  "requirements": [
+    [
+      "bubble"
+    ]
+  ]
+}

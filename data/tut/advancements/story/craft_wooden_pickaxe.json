@@ -1,0 +1,37 @@
+{
+  "parent": "tut:story/craft_crafting_table",
+  "criteria": {
+    "pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "tut:pickaxes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.craft_wooden_pickaxe.description",
+      "fallback": "Craft a Pickaxe"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.craft_wooden_pickaxe.title",
+      "fallback": "Time to Mine"
+    }
+  },
+  "requirements": [
+    [
+      "pickaxe"
+    ]
+  ]
+}

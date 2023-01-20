@@ -1,0 +1,39 @@
+{
+  "parent": "tut:ocean/enter_ocean_monument",
+  "criteria": {
+    "get_wet_sponge": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wet_sponge"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ocean.get_wet_sponge.description",
+      "fallback": "Get a Sponge from the monument"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wet_sponge"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ocean.get_wet_sponge.title",
+      "fallback": "SquarePants"
+    }
+  },
+  "requirements": [
+    [
+      "get_wet_sponge"
+    ]
+  ]
+}

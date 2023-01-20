@@ -1,0 +1,37 @@
+{
+  "parent": "tut:combat/craft_iron_sword",
+  "criteria": {
+    "craft_diamond_sword": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "tut:l4_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.combat.craft_diamond_sword.description",
+      "fallback": "Obtain a Diamond Sword"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.combat.craft_diamond_sword.title",
+      "fallback": "Very Sharp"
+    }
+  },
+  "requirements": [
+    [
+      "craft_diamond_sword"
+    ]
+  ]
+}

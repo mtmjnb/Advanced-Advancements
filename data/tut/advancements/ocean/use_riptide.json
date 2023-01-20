@@ -1,0 +1,42 @@
+{
+  "parent": "tut:ocean/get_trident",
+  "criteria": {
+    "use_riptide": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "trident"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "riptide"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ocean.use_riptide.description",
+      "fallback": "Use the Riptide enchantment to fly in water"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ocean.use_riptide.title",
+      "fallback": "WEEEEE!!"
+    }
+  },
+  "requirements": [
+    [
+      "use_riptide"
+    ]
+  ]
+}

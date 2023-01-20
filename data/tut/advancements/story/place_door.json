@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "place_door": {
+      "trigger": "placed_block",
+      "conditions": {
+        "item": {
+          "tag": "doors"
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_door"
+    },
+    "title": {
+      "translate": "advancements.story.place_door.title",
+      "fallback": "Home Sweet Home"
+    },
+    "description": {
+      "translate": "advancements.story.place_door.description",
+      "fallback": "Make and place a Door"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true
+  },
+  "parent": "tut:story/craft_crafting_table",
+  "requirements": [
+    [
+      "place_door"
+    ]
+  ]
+}

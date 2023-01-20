@@ -1,0 +1,264 @@
+{
+  "parent": "tut:husbandry/root",
+  "criteria": {
+    "get_white_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "white_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_light_gray_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "light_gray_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_gray_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gray_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_black_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "black_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_brown_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brown_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_red_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "red_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_orange_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "orange_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_yellow_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "yellow_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_lime_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lime_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_green_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "green_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_cyan_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cyan_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_light_blue_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "light_blue_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_blue_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blue_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_purple_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "purple_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_magenta_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magenta_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_pink_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pink_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.get_all_dyes.description",
+      "fallback": "Get all the colored Dyes in the game"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:magenta_dye"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.get_all_dyes.title",
+      "fallback": "Dyeded"
+    }
+  },
+  "requirements": [
+    [
+      "get_white_dye"
+    ],
+    [
+      "get_light_gray_dye"
+    ],
+    [
+      "get_gray_dye"
+    ],
+    [
+      "get_black_dye"
+    ],
+    [
+      "get_brown_dye"
+    ],
+    [
+      "get_red_dye"
+    ],
+    [
+      "get_orange_dye"
+    ],
+    [
+      "get_yellow_dye"
+    ],
+    [
+      "get_lime_dye"
+    ],
+    [
+      "get_green_dye"
+    ],
+    [
+      "get_cyan_dye"
+    ],
+    [
+      "get_light_blue_dye"
+    ],
+    [
+      "get_blue_dye"
+    ],
+    [
+      "get_purple_dye"
+    ],
+    [
+      "get_magenta_dye"
+    ],
+    [
+      "get_pink_dye"
+    ]
+  ]
+}

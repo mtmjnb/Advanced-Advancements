@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "place_torch": {
+      "trigger": "placed_block",
+      "conditions": {
+        "item": {
+          "tag": "tut:torches"
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:torch"
+    },
+    "title": {
+      "translate": "advancements.story.place_torch.title",
+      "fallback": "Light up the World"
+    },
+    "description": {
+      "translate": "advancements.story.place_torch.description",
+      "fallback": "Make Monsters stop spawning"
+    },
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true
+  },
+  "parent": "tut:story/craft_wooden_pickaxe",
+  "requirements": [
+    [
+      "place_torch"
+    ]
+  ]
+}

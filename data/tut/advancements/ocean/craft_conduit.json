@@ -1,0 +1,39 @@
+{
+  "parent": "tut:ocean/get_heart_of_the_sea",
+  "criteria": {
+    "get_conduit": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "conduit"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ocean.craft_conduit.description",
+      "fallback": "Craft a Conduit"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:conduit"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ocean.craft_conduit.title",
+      "fallback": "Water Beacon"
+    }
+  },
+  "requirements": [
+    [
+      "get_conduit"
+    ]
+  ]
+}

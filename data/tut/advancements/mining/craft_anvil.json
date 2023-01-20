@@ -1,0 +1,39 @@
+{
+  "parent": "tut:mining/smelt_iron_ore",
+  "criteria": {
+    "anvil": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:anvil"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mining.craft_anvil.description",
+      "fallback": "Make an Anvil"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:anvil"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mining.craft_anvil.title",
+      "fallback": "Smash Smash"
+    }
+  },
+  "requirements": [
+    [
+      "anvil"
+    ]
+  ]
+}

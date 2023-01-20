@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "place_painting": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "painting"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:painting"
+    },
+    "title": {
+      "translate": "advancements.story.place_painting.title",
+      "fallback": "Art"
+    },
+    "description": {
+      "translate": "advancements.story.place_painting.description",
+      "fallback": "Hang a painting"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true
+  },
+  "parent": "tut:story/craft_chest",
+  "requirements": [
+    [
+      "place_painting"
+    ]
+  ]
+}

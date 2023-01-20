@@ -1,0 +1,39 @@
+{
+  "parent": "tut:ocean/breed_turtles",
+  "criteria": {
+    "get_scute": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "scute"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ocean.get_scute.description",
+      "fallback": "Get a Turtle Scute"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:scute"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ocean.get_scute.title",
+      "fallback": "They Grow up so Fast"
+    }
+  },
+  "requirements": [
+    [
+      "get_scute"
+    ]
+  ]
+}

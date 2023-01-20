@@ -1,0 +1,99 @@
+{
+  "parent": "tut:story/craft_crafting_table",
+  "criteria": {
+    "stone_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "stone_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "stone_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "stone_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "stone_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.get_all_stone_tools.description",
+      "fallback": "Get full Stone Tools"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.get_all_stone_tools.title",
+      "fallback": "Full Stone"
+    }
+  },
+  "requirements": [
+    [
+      "stone_sword"
+    ],
+    [
+      "stone_pickaxe"
+    ],
+    [
+      "stone_axe"
+    ],
+    [
+      "stone_shovel"
+    ],
+    [
+      "stone_hoe"
+    ]
+  ]
+}

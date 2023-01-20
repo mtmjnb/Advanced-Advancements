@@ -1,0 +1,37 @@
+{
+  "parent": "tut:combat/craft_diamond_sword",
+  "criteria": {
+    "craft_netherite_sword": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "tut:l4_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.combat.craft_netherite_sword.description",
+      "fallback": "Upgade a Diamond Sword to Netherite"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:netherite_sword"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.combat.craft_netherite_sword.title",
+      "fallback": "ULTRA Sharp"
+    }
+  },
+  "requirements": [
+    [
+      "craft_netherite_sword"
+    ]
+  ]
+}

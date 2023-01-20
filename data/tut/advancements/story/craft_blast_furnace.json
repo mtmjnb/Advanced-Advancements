@@ -1,0 +1,39 @@
+{
+  "parent": "tut:story/craft_furnace",
+  "criteria": {
+    "blast_furnace": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blast_furnace"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.story.craft_blast_furnace.description",
+      "fallback": "Make a Blast Furnace"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:blast_furnace"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.craft_blast_furnace.title",
+      "fallback": "Minerals"
+    }
+  },
+  "requirements": [
+    [
+      "blast_furnace"
+    ]
+  ]
+}

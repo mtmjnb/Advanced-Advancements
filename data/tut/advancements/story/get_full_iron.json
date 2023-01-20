@@ -1,0 +1,159 @@
+{
+  "parent": "tut:story/get_all_stone_tools",
+  "criteria": {
+    "iron_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.get_full_iron.description",
+      "fallback": "Get full Iron Tools and Armor"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.get_full_iron.title",
+      "fallback": "Full Iron"
+    }
+  },
+  "requirements": [
+    [
+      "iron_sword"
+    ],
+    [
+      "iron_pickaxe"
+    ],
+    [
+      "iron_axe"
+    ],
+    [
+      "iron_shovel"
+    ],
+    [
+      "iron_hoe"
+    ],
+    [
+      "iron_helmet"
+    ],
+    [
+      "iron_chestplate"
+    ],
+    [
+      "iron_leggings"
+    ],
+    [
+      "iron_boots"
+    ]
+  ]
+}

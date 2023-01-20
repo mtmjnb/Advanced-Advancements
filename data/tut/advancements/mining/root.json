@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "tut:pickaxes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "translate": "advancements.mining.root.description",
+      "fallback": "Going down in The Deeps"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.mining.root.title",
+      "fallback": "Mining"
+    }
+  },
+  "requirements": [
+    [
+      "pickaxe"
+    ]
+  ]
+}

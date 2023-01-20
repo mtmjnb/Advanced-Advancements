@@ -1,0 +1,39 @@
+{
+  "parent": "tut:mining/smelt_iron_ore",
+  "criteria": {
+    "bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bucket"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.mining.craft_bucket.description",
+      "fallback": "Craft a Bucket to put liquids in"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bucket"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.mining.craft_bucket.description",
+      "fallback": "Bukkit"
+    }
+  },
+  "requirements": [
+    [
+      "bucket"
+    ]
+  ]
+}

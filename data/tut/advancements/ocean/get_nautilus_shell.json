@@ -1,0 +1,39 @@
+{
+  "parent": "tut:ocean/catch_fish",
+  "criteria": {
+    "get_nautilus_shell": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nautilus_shell"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ocean.get_nautilus_shell.description",
+      "fallback": "Get a Nautilus Shell"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ocean.get_nautilus_shell.title",
+      "fallback": "The Shell of The Sea"
+    }
+  },
+  "requirements": [
+    [
+      "get_nautilus_shell"
+    ]
+  ]
+}

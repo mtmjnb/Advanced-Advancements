@@ -1,0 +1,39 @@
+{
+  "parent": "tut:story/enchant_item",
+  "criteria": {
+    "craft_grindstone": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "grindstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:grindstone"
+    },
+    "title": {
+      "translate": "advancements.story.craft_grindstone.title",
+      "fallback": "Grind Em Up"
+    },
+    "description": {
+      "translate": "advancements.story.craft_grindstone.description",
+      "fallback": "Craft a Grindstone to remove enchantments from an item"
+    },
+    "hidden": false,
+    "announce_to_chat": false,
+    "show_toast": true,
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "craft_grindstone"
+    ]
+  ]
+}

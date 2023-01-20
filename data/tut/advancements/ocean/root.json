@@ -1,0 +1,179 @@
+{
+  "criteria": {
+    "enter_ocean": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enter_cold_ocean": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "cold_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enter_deep_ocean": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "deep_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enter_warm_ocean": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "warm_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enter_frozen_ocean": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "frozen_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enter_lukewarm_ocean": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "lukewarm_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enter_deep_cold_ocean": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "deep_cold_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enter_deep_frozen_ocean": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "deep_frozen_ocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enter_deep_lukewarm_ocean": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "deep_lukewarm_ocean"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "water_bucket"
+    },
+    "title": {
+      "translate": "advancements.ocean.root.title",
+      "fallback": "The Ocean"
+    },
+    "description": {
+      "translate": "advancements.ocean.root.description",
+      "fallback": "Delving into the Big Blue"
+    },
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/tube_coral_block.png",
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "enter_ocean",
+      "enter_cold_ocean",
+      "enter_deep_ocean",
+      "enter_warm_ocean",
+      "enter_frozen_ocean",
+      "enter_lukewarm_ocean",
+      "enter_deep_cold_ocean",
+      "enter_deep_frozen_ocean",
+      "enter_deep_lukewarm_ocean"
+    ]
+  ]
+}

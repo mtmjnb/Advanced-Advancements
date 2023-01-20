@@ -1,0 +1,39 @@
+{
+  "parent": "tut:ocean/enter_shipwreck_or_ruin",
+  "criteria": {
+    "get_heart_of_the_sea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "heart_of_the_sea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ocean.get_heart_of_the_sea.description",
+      "fallback": "Find a Heart of the Sea"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ocean.get_heart_of_the_sea.title",
+      "fallback": "The Heart is a Complex Thing"
+    }
+  },
+  "requirements": [
+    [
+      "get_heart_of_the_sea"
+    ]
+  ]
+}

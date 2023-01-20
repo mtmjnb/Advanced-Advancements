@@ -1,0 +1,43 @@
+{
+  "parent": "tut:ocean/root",
+  "criteria": {
+    "in_stronghold": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:monument"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ocean.enter_ocean_monument.description",
+      "fallback": "Enter a Ocean Monument"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ocean.enter_ocean_monument.title",
+      "fallback": "A Monumental Discovery"
+    }
+  },
+  "requirements": [
+    [
+      "in_stronghold"
+    ]
+  ]
+}

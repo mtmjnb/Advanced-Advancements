@@ -1,0 +1,39 @@
+{
+  "parent": "tut:story/craft_furnace",
+  "criteria": {
+    "smoker": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smoker"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.story.craft_smoker.description",
+      "fallback": "Make a Smoker"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:smoker"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.craft_smoker.title",
+      "fallback": "Tasty food"
+    }
+  },
+  "requirements": [
+    [
+      "smoker"
+    ]
+  ]
+}

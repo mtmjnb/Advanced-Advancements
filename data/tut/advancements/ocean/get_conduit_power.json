@@ -1,0 +1,35 @@
+{
+  "parent": "tut:ocean/craft_conduit",
+  "criteria": {
+    "get_conduit_power": {
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:conduit_power": {}
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ocean.get_conduit_power.description",
+      "fallback": "Build rings around a Conduit to power it"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:prismarine"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ocean.get_conduit_power.title",
+      "fallback": "I Can Sea That"
+    }
+  },
+  "requirements": [
+    [
+      "get_conduit_power"
+    ]
+  ]
+}

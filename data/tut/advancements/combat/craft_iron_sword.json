@@ -1,0 +1,37 @@
+{
+  "parent": "tut:combat/craft_stone_sword",
+  "criteria": {
+    "craft_iron_sword": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "tut:l3_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.combat.craft_iron_sword.description",
+      "fallback": "Obtain a Iron Sword"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.combat.craft_iron_sword.title",
+      "fallback": "Sharp"
+    }
+  },
+  "requirements": [
+    [
+      "craft_iron_sword"
+    ]
+  ]
+}

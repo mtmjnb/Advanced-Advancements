@@ -1,0 +1,39 @@
+{
+  "parent": "tut:ocean/root",
+  "criteria": {
+    "get_trident": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "trident"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ocean.get_trident.description",
+      "fallback": "Get a Trident"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ocean.get_trident.description",
+      "fallback": "Prongy"
+    }
+  },
+  "requirements": [
+    [
+      "get_trident"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "tut:husbandry/root",
+  "criteria": {
+    "get_milk": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milk_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:milk_bucket"
+    },
+    "title": {
+      "translate": "advancements.husbandry.get_milk.title",
+      "fallback": "A Remedy to Cure All Ills"
+    },
+    "description": {
+      "translate": "advancements.husbandry.get_milk.description",
+      "fallback": "Milk a Cow"
+    },
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "get_milk"
+    ]
+  ]
+}

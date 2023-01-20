@@ -1,0 +1,39 @@
+{
+  "parent": "tut:combat/root",
+  "criteria": {
+    "craft_armor_stand": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armor_stand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:armor_stand"
+    },
+    "title": {
+      "translate": "advancements.combat.craft_armor_stand.title",
+      "fallback": "Dummy"
+    },
+    "description": {
+      "translate": "advancements.combat.craft_armor_stand.description",
+      "fallback": "Get an Armor Stand to show off your armor"
+    },
+    "hidden": false,
+    "announce_to_chat": false,
+    "show_toast": true,
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "craft_armor_stand"
+    ]
+  ]
+}

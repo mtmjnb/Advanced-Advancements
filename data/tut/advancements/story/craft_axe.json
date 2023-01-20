@@ -1,0 +1,37 @@
+{
+  "parent": "tut:story/place_door",
+  "criteria": {
+    "axe": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "tut:axes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.craft_axe.description",
+      "fallback": "Make an Axe"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:stone_axe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.craft_axe.title",
+      "fallback": "Chop Chop"
+    }
+  },
+  "requirements": [
+    [
+      "axe"
+    ]
+  ]
+}

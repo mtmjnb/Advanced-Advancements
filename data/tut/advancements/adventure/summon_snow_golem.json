@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "summon_snow_golem": {
+      "trigger": "summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "snow_golem"
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "advancements.adventure.summon_snow_golem.title",
+      "fallback": "Do You Want to Build a Snowman"
+    },
+    "description": {
+      "translate": "advancements.adventure.summon_snow_golem.description",
+      "fallback": "Yes you do"
+    },
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true
+  },
+  "parent": "tut:adventure/root",
+  "requirements": [
+    [
+      "summon_snow_golem"
+    ]
+  ]
+}

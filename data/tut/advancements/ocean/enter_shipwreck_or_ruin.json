@@ -1,0 +1,94 @@
+{
+  "parent": "tut:ocean/root",
+  "criteria": {
+    "in_shipwreck": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "shipwreck"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "in_shipwreck_beached": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "shipwreck_beached"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "in_ocean_ruin_cold": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "ocean_ruin_cold"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "in_ocean_ruin_warm": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "ocean_ruin_warm"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ocean.enter_shipwreck_or_ruin.description",
+      "fallback": "Enter a Shipwreck or Ocean Ruin"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:oak_planks"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ocean.enter_shipwreck_or_ruin.title",
+      "fallback": "A Ruined Place"
+    }
+  },
+  "requirements": [
+    [
+      "in_shipwreck",
+      "in_shipwreck_beached",
+      "in_ocean_ruin_cold",
+      "in_ocean_ruin_warm"
+    ]
+  ]
+}

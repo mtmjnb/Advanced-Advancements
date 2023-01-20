@@ -1,0 +1,39 @@
+{
+  "parent": "tut:ocean/get_wet_sponge",
+  "criteria": {
+    "get_sponge": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sponge"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ocean.dry_a_sponge.description",
+      "fallback": "Heat up a Sponge"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:sponge"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ocean.dry_a_sponge.title",
+      "fallback": "SpongeBob is Hot"
+    }
+  },
+  "requirements": [
+    [
+      "get_sponge"
+    ]
+  ]
+}

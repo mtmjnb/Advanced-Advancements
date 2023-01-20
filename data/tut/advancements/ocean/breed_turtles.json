@@ -1,0 +1,50 @@
+{
+  "parent": "tut:ocean/root",
+  "criteria": {
+    "breed_turtles": {
+      "conditions": {
+        "parent": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:turtle"
+            }
+          }
+        ],
+        "partner": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:turtle"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ocean.bread_turtles.description",
+      "fallback": "Breed Turtles"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:seagrass"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ocean.bread_turtles.title",
+      "fallback": "A Slow Mate"
+    }
+  },
+  "requirements": [
+    [
+      "breed_turtles"
+    ]
+  ]
+}

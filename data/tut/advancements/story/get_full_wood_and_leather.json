@@ -1,0 +1,159 @@
+{
+  "parent": "tut:story/get_full_diamond",
+  "criteria": {
+    "wooden_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wooden_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wooden_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wooden_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wooden_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "leather_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "leather_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "leather_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "leather_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.get_full_wood_and_leather.description",
+      "fallback": "Get full Wooden Tools and Leather Armor"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.get_full_wood_and_leather.title",
+      "fallback": "Full Wood and Leather"
+    }
+  },
+  "requirements": [
+    [
+      "wooden_sword"
+    ],
+    [
+      "wooden_pickaxe"
+    ],
+    [
+      "wooden_axe"
+    ],
+    [
+      "wooden_shovel"
+    ],
+    [
+      "wooden_hoe"
+    ],
+    [
+      "leather_helmet"
+    ],
+    [
+      "leather_chestplate"
+    ],
+    [
+      "leather_leggings"
+    ],
+    [
+      "leather_boots"
+    ]
+  ]
+}

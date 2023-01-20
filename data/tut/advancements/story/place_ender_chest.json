@@ -1,0 +1,33 @@
+{
+  "parent": "tut:story/enter_the_nether",
+  "criteria": {
+    "place_ender_chest": {
+      "trigger": "placed_block",
+      "conditions": {
+        "block": "ender_chest"
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_chest"
+    },
+    "title": {
+      "translate": "advancements.story.place_ender_chest.description",
+      "fallback": "Item Transportation"
+    },
+    "description": {
+      "translate": "advancements.story.place_ender_chest.description",
+      "fallback": "Place an Ender Chest"
+    },
+    "hidden": false,
+    "announce_to_chat": false,
+    "show_toast": true,
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "place_ender_chest"
+    ]
+  ]
+}

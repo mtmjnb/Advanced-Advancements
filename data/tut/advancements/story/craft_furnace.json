@@ -1,0 +1,39 @@
+{
+  "parent": "tut:story/craft_chest",
+  "criteria": {
+    "furnace": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.story.craft_furnace.description",
+      "fallback": "Make a Furnace"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.craft_furnace.title",
+      "fallback": "Smelt"
+    }
+  },
+  "requirements": [
+    [
+      "furnace"
+    ]
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "parent": "tut:combat/get_a_head",
+  "criteria": {
+    "get_zombie_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zombie_head"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_skeleton_skull": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "skeleton_skull"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_creeper_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "creeper_head"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_wither_skeleton_skull": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wither_skeleton_skull"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.combat.get_all_heads.description",
+      "fallback": "Get all mob heads"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.combat.get_all_heads.title",
+      "fallback": "Head-Man"
+    }
+  },
+  "requirements": [
+    [
+      "get_zombie_head"
+    ],
+    [
+      "get_skeleton_skull"
+    ],
+    [
+      "get_creeper_head"
+    ],
+    [
+      "get_wither_skeleton_skull"
+    ]
+  ]
+}

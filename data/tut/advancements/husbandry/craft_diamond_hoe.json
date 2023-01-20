@@ -1,0 +1,37 @@
+{
+  "parent": "tut:husbandry/plant_seed",
+  "criteria": {
+    "diamond_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "tut:l4_hoes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.craft_diamond_hoe.description",
+      "fallback": "Waste diamonds on a diamond hoe"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond_hoe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.craft_diamond_hoe.title",
+      "fallback": "Dedication"
+    }
+  },
+  "requirements": [
+    [
+      "diamond_hoe"
+    ]
+  ]
+}

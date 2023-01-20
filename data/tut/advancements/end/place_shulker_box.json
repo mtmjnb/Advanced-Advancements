@@ -1,0 +1,33 @@
+{
+  "parent": "tut:end/enter_end_city",
+  "criteria": {
+    "place_shulker_box": {
+      "trigger": "placed_block",
+      "conditions": {
+        "block": "shulker_box"
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "advancements.end.place_shulker_box.title",
+      "fallback": "Backpacking?"
+    },
+    "description": {
+      "translate": "advancements.end.place_shulker_box.description",
+      "fallback": "Place a shulker box to store multiple stacks of items in one slot"
+    },
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "place_shulker_box"
+    ]
+  ]
+}

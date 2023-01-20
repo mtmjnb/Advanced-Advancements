@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "ride_skeleton_horse": {
+      "trigger": "started_riding",
+      "conditions": {
+        "player": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "vehicle": {
+              "type": "minecraft:skeleton_horse"
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "advancements.adventure.ride_skeleton_horuse.title",
+      "fallback": "Boney H."
+    },
+    "description": {
+      "translate": "advancements.adventure.ride_skeleton_horuse.description",
+      "fallback": "Ride a Skeleton Horse"
+    },
+    "announce_to_chat": true,
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true
+  },
+  "parent": "tut:adventure/root",
+  "requirements": [
+    [
+      "ride_skeleton_horse"
+    ]
+  ]
+}

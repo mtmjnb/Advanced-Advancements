@@ -1,0 +1,65 @@
+{
+  "parent": "tut:combat/strike_creeper_with_trident",
+  "criteria": {
+    "get_zombie_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zombie_head"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_skeleton_skull": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "skeleton_skull"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_creeper_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "creeper_head"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.combat.get_a_head.description",
+      "fallback": "Make a charged Creeper drop a mobs head"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.combat.get_a_head.title",
+      "fallback": "Get A-Head"
+    }
+  },
+  "requirements": [
+    [
+      "get_zombie_head",
+      "get_skeleton_skull",
+      "get_creeper_head"
+    ]
+  ]
+}

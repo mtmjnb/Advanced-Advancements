@@ -1,0 +1,39 @@
+{
+  "parent": "tut:nether/root",
+  "criteria": {
+    "get_ghast_tear": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ghast_tear"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.nether.get_ghast_tear.description",
+      "fallback": "Get a Ghast's tear"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:ghast_tear"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.nether.get_ghast_tear.title",
+      "fallback": "Weeping Ghast"
+    }
+  },
+  "requirements": [
+    [
+      "get_ghast_tear"
+    ]
+  ]
+}

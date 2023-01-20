@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "weapon": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "tut:weapons"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "translate": "advancements.combat.root.description",
+      "fallback": "Kill"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wooden_sword"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.combat.root.title",
+      "fallback": "Combat"
+    }
+  },
+  "requirements": [
+    [
+      "weapon"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "tut:story/place_door",
+  "criteria": {
+    "chest": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chest"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.story.craft_chest.description",
+      "fallback": "Make a Chest"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.craft_chest.title",
+      "fallback": "Bigger on the Inside"
+    }
+  },
+  "requirements": [
+    [
+      "chest"
+    ]
+  ]
+}

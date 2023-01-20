@@ -1,0 +1,40 @@
+{
+  "parent": "tut:combat/root",
+  "criteria": {
+    "deal_10_hearts": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 20
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "netherite_axe"
+    },
+    "title": {
+      "translate": "advancements.combat.deal_10_hearts.title",
+      "fallback": "Super Kill"
+    },
+    "description": {
+      "translate": "advancements.combat.deal_10_hearts.description",
+      "fallback": "Deal 10 or more hearts of damage in one blow"
+    },
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "frame": "challenge"
+  },
+  "requirements": [
+    [
+      "deal_10_hearts"
+    ]
+  ],
+  "rewards": {
+    "experience": 65
+  }
+}

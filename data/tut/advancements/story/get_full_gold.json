@@ -1,0 +1,159 @@
+{
+  "parent": "tut:story/get_full_netherite",
+  "criteria": {
+    "golden_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "golden_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "golden_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "golden_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "golden_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "golden_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "golden_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "golden_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "golden_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.get_full_gold.description",
+      "fallback": "Get full Golden Tools and Armor"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:golden_helmet"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.get_full_gold.title",
+      "fallback": "Full Gold"
+    }
+  },
+  "requirements": [
+    [
+      "golden_sword"
+    ],
+    [
+      "golden_pickaxe"
+    ],
+    [
+      "golden_axe"
+    ],
+    [
+      "golden_shovel"
+    ],
+    [
+      "golden_hoe"
+    ],
+    [
+      "golden_helmet"
+    ],
+    [
+      "golden_chestplate"
+    ],
+    [
+      "golden_leggings"
+    ],
+    [
+      "golden_boots"
+    ]
+  ]
+}

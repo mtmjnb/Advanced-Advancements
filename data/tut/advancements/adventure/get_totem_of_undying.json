@@ -1,0 +1,38 @@
+{
+  "parent": "tut:adventure/root",
+  "criteria": {
+    "get_totem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:totem_of_undying"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.get_totem_of_undying.description",
+      "fallback": "Get a Totem of Undying to cheat death"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.totem_of_undying.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_totem"
+    ]
+  ]
+}

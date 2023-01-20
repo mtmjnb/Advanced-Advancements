@@ -1,0 +1,36 @@
+{
+  "parent": "tut:combat/root",
+  "criteria": {
+    "block_projectile": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true
+          },
+          "blocked": true
+        }
+      }      
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.deflect_arrow.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:shield"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.deflect_arrow.title"
+    }
+  },
+  "requirements": [
+    [
+      "block_projectile"
+    ]
+  ]
+}

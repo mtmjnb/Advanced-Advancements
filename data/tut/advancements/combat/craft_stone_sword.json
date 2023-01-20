@@ -1,0 +1,37 @@
+{
+  "parent": "tut:combat/root",
+  "criteria": {
+    "craft_stone_sword": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "tut:l2_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.combat.craft_stone_sword.description",
+      "fallback": "Obtain a Stone Sword"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.combat.craft_stone_sword.title",
+      "fallback": "Pointy"
+    }
+  },
+  "requirements": [
+    [
+      "craft_stone_sword"
+    ]
+  ]
+}
