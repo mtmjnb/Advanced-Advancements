@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "tut:pickaxes"
+            "tag": "minecraft:pickaxes"
           }
         ]
       },
