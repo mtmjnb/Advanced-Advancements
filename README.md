@@ -1,3 +1,3 @@
-# Advanced-Advancements
+# Advanced Advancements
 
 Advancements data pack for minecraft
