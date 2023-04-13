@@ -1,0 +1,39 @@
+{
+  "parent": "tut:adventure/brush_sus_block",
+  "criteria": {
+    "get_sniffer_egg": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sniffer_egg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:sniffer_egg"
+    },
+    "frame": "task",
+    "title": {
+      "translate": "advancements.adventure.get_sniffer_egg.title",
+      "fallback": "Omelette?"
+    },
+    "description": {
+      "translate": "advancements.adventure.get_sniffer_egg.description",
+      "fallback": "Find a Sniffer Egg"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_sniffer_egg"
+    ]
+  ]
+}

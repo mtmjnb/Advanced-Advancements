@@ -1,0 +1,94 @@
+{
+  "parent": "tut:adventure/root",
+  "criteria": {
+    "enter_trail_ruins": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:trail_ruins"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enter_desert_pyramid": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:desert_pyramid"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enter_warm_ocean_ruin": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ocean_ruin_warm"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "enter_cold_ocean_ruin": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ocean_ruin_cold"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "terracotta"
+    },
+    "frame": "task",
+    "title": {
+      "translate": "advancements.adventure.enter_dig_site.title",
+      "fallback": "Something Hidden"
+    },
+    "description": {
+      "translate": "advancements.adventure.enter_dig_site.description",
+      "fallback": "Enter a Dig Site"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "enter_trail_ruins",
+      "enter_desert_pyramid",
+      "enter_warm_ocean_ruin",
+      "enter_cold_ocean_ruin"
+    ]
+  ]
+}

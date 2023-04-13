@@ -1,0 +1,39 @@
+{
+  "parent": "tut:adventure/enter_dig_site",
+  "criteria": {
+    "craft_brush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:brush"
+    },
+    "frame": "task",
+    "title": {
+      "translate": "advancements.adventure.craft_brush.title",
+      "fallback": "Brush me Away"
+    },
+    "description": {
+      "translate": "advancements.adventure.craft_brush.description",
+      "fallback": "Craft a Brush"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "craft_brush"
+    ]
+  ]
+}

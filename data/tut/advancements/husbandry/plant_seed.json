@@ -1,6 +1,12 @@
 {
   "parent": "tut:husbandry/root",
   "criteria": {
+    "pitcher_pod": {
+      "conditions": {
+        "block": "minecraft:pitcher_crop"
+      },
+      "trigger": "minecraft:placed_block"
+    },
     "beetroots": {
       "conditions": {
         "block": "minecraft:beetroots"
@@ -60,7 +66,8 @@
       "melon_stem",
       "beetroots",
       "nether_wart",
-      "torchflower"
+      "torchflower",
+      "pitcher_pod"
     ]
   ]
 }

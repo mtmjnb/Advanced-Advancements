@@ -1,6 +1,43 @@
 {
   "parent": "tut:husbandry/breed_an_animal",
   "criteria": {
+    "minecraft:camel": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:camel"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:sniffer": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:sniffer"
+            }
+          }
+        ],
+        "partner": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:sniffer"
+            }
+          }
+        ]
+      }
+    },
     "minecraft:axolotl": {
       "conditions": {
         "child": [
@@ -344,6 +381,12 @@
     }
   },
   "requirements": [
+    [
+      "minecraft:camel"
+    ],
+    [
+      "minecraft:sniffer"
+    ],
     [
       "minecraft:horse"
     ],

@@ -1,5 +1,5 @@
 {
-  "parent": "tut:nether/root",
+  "parent": "tut:nether/get_netherite_template",
   "criteria": {
     "ancient_debris": {
       "conditions": {

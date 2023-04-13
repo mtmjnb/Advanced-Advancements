@@ -1,0 +1,37 @@
+{
+  "parent": "tut:village/root",
+  "criteria": {
+    "ride_camel": {
+      "trigger": "started_riding",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:camel"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:cactus"
+    },
+    "title": {
+      "translate": "advancements.village.ride_camel.title",
+      "fallback": "Humpy Friend"
+    },
+    "description": {
+      "translate": "advancements.village.ride_camel.description",
+      "fallback": "Ride a Camel From a Desert Village"
+    },
+    "announce_to_chat": true,
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "ride_camel"
+    ]
+  ]
+}

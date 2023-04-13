@@ -1,0 +1,39 @@
+{
+  "parent": "tut:adventure/avoid_vibration",
+  "criteria": {
+    "get_sculk_sensor": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "calibrated_sculk_sensor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:calibrated_sculk_sensor"
+    },
+    "frame": "task",
+    "title": {
+      "translate": "advancements.adventure.calibrate_sculk_sensor.title",
+      "fallback": "Cal-I-Brate"
+    },
+    "description": {
+      "translate": "advancements.adventure.calibrate_sculk_sensor.description",
+      "fallback": "Use Amethyst to Calibrate a Sculk Sensor"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_sculk_sensor"
+    ]
+  ]
+}

@@ -16,11 +16,11 @@
       "item": "minecraft:saddle"
     },
     "title": {
-      "translate": "advancements.adventure.ride_skeleton_horuse.title",
+      "translate": "advancements.adventure.ride_skeleton_horse.title",
       "fallback": "Boney H."
     },
     "description": {
-      "translate": "advancements.adventure.ride_skeleton_horuse.description",
+      "translate": "advancements.adventure.ride_skeleton_horse.description",
       "fallback": "Ride a Skeleton Horse"
     },
     "announce_to_chat": true,

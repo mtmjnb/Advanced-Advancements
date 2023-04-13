@@ -1,0 +1,143 @@
+{
+  "parent": "tut:nether/craft_netherite_ingot",
+  "criteria": {
+    "netherite_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_boots"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_shovel"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:smithing_table"
+    },
+    "frame": "task",
+    "title": {
+      "translate": "advancements.nether.upgrade_diamond_gear.title",
+      "fallback": "Upgrade Diamond Gear With a Diamond"
+    },
+    "description": {
+      "translate": "advancements.nether.upgrade_diamond_gear.description",
+      "fallback": "Yes it is!"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "netherite_helmet",
+      "netherite_chestplate",
+      "netherite_leggings",
+      "netherite_boots",
+      "netherite_sword",
+      "netherite_pickaxe",
+      "netherite_axe",
+      "netherite_shovel",
+      "netherite_hoe"
+    ]
+  ]
+}

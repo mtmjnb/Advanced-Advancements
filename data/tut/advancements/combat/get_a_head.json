@@ -36,6 +36,18 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "get_piglin_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:piglin_head"
+            ]
+          }
+        ]
+      }
     }
   },
   "display": {
@@ -59,7 +71,8 @@
     [
       "get_zombie_head",
       "get_skeleton_skull",
-      "get_creeper_head"
+      "get_creeper_head",
+      "get_piglin_head"
     ]
   ]
 }

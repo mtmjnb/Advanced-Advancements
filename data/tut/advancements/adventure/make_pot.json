@@ -1,0 +1,39 @@
+{
+  "parent": "tut:adventure/get_shard",
+  "criteria": {
+    "make_pot": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "decorated_pot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:decorated_pot"
+    },
+    "frame": "task",
+    "title": {
+      "translate": "advancements.adventure.make_pot.title",
+      "fallback": "Decorated Archaeologist"
+    },
+    "description": {
+      "translate": "advancements.adventure.make_pot.description",
+      "fallback": "Make a Pot Using Shards and Bricks"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "make_pot"
+    ]
+  ]
+}

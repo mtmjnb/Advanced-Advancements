@@ -48,6 +48,18 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "get_piglin_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:piglin_head"
+            ]
+          }
+        ]
+      }
     }
   },
   "display": {
@@ -79,6 +91,9 @@
     ],
     [
       "get_wither_skeleton_skull"
+    ],
+    [
+      "get_piglin_head"
     ]
   ]
 }

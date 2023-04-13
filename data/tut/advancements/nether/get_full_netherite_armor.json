@@ -1,5 +1,5 @@
 {
-  "parent": "tut:nether/craft_netherite_ingot",
+  "parent": "tut:nether/upgrade_diamond_gear",
   "criteria": {
     "netherite_armor": {
       "conditions": {

@@ -1,0 +1,45 @@
+{
+  "parent": "tut:adventure/craft_brush",
+  "criteria": {
+    "brush_sus_block": {
+      "trigger": "item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:brush"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:suspicious_sand",
+              "minecraft:suspicious_gravel"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_sand"
+    },
+    "frame": "task",
+    "title": {
+      "translate": "advancements.adventure.brush_sus_block.title",
+      "fallback": "What is it?"
+    },
+    "description": {
+      "translate": "advancements.adventure.brush_sus_block.description",
+      "fallback": "Brush a Suspicious Block"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "brush_sus_block"
+    ]
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "tut:adventure/get_sniffer_egg",
+  "criteria": {
+    "find_a_ancient_seed": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:torchflower_seeds",
+              "minecraft:pitcher_pod"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:torchflower_seeds"
+    },
+    "frame": "task",
+    "title": {
+      "translate": "advancements.adventure.find_a_ancient_seed.title",
+      "fallback": "Tissue?"
+    },
+    "description": {
+      "translate": "advancements.adventure.find_a_ancient_seed.description",
+      "fallback": "find an ancient seed"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "find_a_ancient_seed"
+    ]
+  ]
+}
