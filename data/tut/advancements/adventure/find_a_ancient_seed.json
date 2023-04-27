@@ -1,5 +1,5 @@
 {
-  "parent": "tut:adventure/get_sniffer_egg",
+  "parent": "tut:adventure/obtain_sniffer_egg",
   "criteria": {
     "find_a_ancient_seed": {
       "trigger": "inventory_changed",
@@ -26,7 +26,7 @@
     },
     "description": {
       "translate": "advancements.adventure.find_a_ancient_seed.description",
-      "fallback": "find an ancient seed"
+      "fallback": "Find an Ancient Seed"
     },
     "show_toast": true,
     "announce_to_chat": false,

@@ -1,0 +1,51 @@
+{
+  "parent": "tut:adventure/brush_sus_block",
+  "criteria": {
+    "brushed_block": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "tut:adventure/brush_sus_block": true
+            }
+          }
+        }
+      }
+    },
+    "has_sherd": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:decorated_pot_sherds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.salvage_sherd.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "archer_pottery_sherd"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.salvage_sherd.title"
+    }
+  },
+  "requirements": [
+    [
+      "brushed_block"
+    ],
+    [
+      "has_sherd"
+    ]
+  ]
+}

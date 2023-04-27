@@ -1,17 +1,11 @@
 {
   "parent": "tut:ocean/get_heart_of_the_sea",
   "criteria": {
-    "get_conduit": {
+    "craft_conduit": {
+      "trigger": "recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "conduit"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+        "recipe_id": "minecraft:conduit"
+      }
     }
   },
   "display": {
@@ -33,7 +27,7 @@
   },
   "requirements": [
     [
-      "get_conduit"
+      "craft_conduit"
     ]
   ]
 }

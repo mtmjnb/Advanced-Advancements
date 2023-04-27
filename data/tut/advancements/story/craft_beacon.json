@@ -1,0 +1,33 @@
+{
+  "parent": "tut:story/kill_the_wither",
+  "criteria": {
+    "craft_beacon": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:beacon"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.craft_beacon.description",
+      "fallback": "Craft a Beacon"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.craft_beacon.title",
+      "fallback": "A Beacon of Light"
+    }
+  },
+  "requirements": [
+    [
+      "craft_beacon"
+    ]
+  ]
+}

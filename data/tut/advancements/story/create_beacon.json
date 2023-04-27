@@ -1,5 +1,5 @@
 {
-  "parent": "tut:story/kill_the_wither",
+  "parent": "tut:story/craft_beacon",
   "criteria": {
     "beacon": {
       "conditions": {
