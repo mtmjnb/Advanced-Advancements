@@ -2,16 +2,10 @@
   "parent": "tut:story/craft_chest",
   "criteria": {
     "furnace": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:furnace"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+        "recipe_id": "minecraft:furnace"
+      }
     }
   },
   "display": {

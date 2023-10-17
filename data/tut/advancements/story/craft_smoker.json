@@ -2,16 +2,10 @@
   "parent": "tut:story/craft_furnace",
   "criteria": {
     "smoker": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:smoker"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+        "recipe_id": "minecraft:smoker"
+      }
     }
   },
   "display": {

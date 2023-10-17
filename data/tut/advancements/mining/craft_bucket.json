@@ -2,16 +2,10 @@
   "parent": "tut:mining/smelt_iron_ore",
   "criteria": {
     "bucket": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bucket"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+        "recipe_id": "minecraft:bucket"
+      }
     }
   },
   "display": {

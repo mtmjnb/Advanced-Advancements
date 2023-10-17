@@ -2,16 +2,10 @@
   "parent": "tut:nether/smelt_debris",
   "criteria": {
     "get_netherite": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:netherite_ingot"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+        "recipe_id": "minecraft:netherite_ingot"
+      }
     }
   },
   "display": {

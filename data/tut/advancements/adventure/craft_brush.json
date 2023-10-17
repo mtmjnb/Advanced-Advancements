@@ -2,15 +2,9 @@
   "parent": "tut:adventure/enter_dig_site",
   "criteria": {
     "craft_brush": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:brush"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:brush"
       }
     }
   },

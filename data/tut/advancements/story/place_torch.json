@@ -3,9 +3,14 @@
     "place_torch": {
       "trigger": "placed_block",
       "conditions": {
-        "item": {
-          "tag": "tut:torches"
-        }
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "tut:torches"
+            }
+          }
+        ]
       }
     }
   },

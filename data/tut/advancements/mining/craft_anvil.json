@@ -2,16 +2,10 @@
   "parent": "tut:mining/smelt_iron_ore",
   "criteria": {
     "anvil": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:anvil"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+        "recipe_id": "minecraft:anvil"
+      }
     }
   },
   "display": {

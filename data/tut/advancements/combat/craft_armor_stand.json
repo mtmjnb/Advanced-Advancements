@@ -2,15 +2,9 @@
   "parent": "tut:combat/root",
   "criteria": {
     "craft_armor_stand": {
-      "trigger": "inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "armor_stand"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:armor_stand"
       }
     }
   },

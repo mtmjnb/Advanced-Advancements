@@ -4,7 +4,12 @@
     "place_shulker_box": {
       "trigger": "placed_block",
       "conditions": {
-        "block": "shulker_box"
+        "location": [
+          {
+            "block": "minecraft:shulker_box",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
       }
     }
   },

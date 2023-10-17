@@ -4,7 +4,12 @@
     "place_ender_chest": {
       "trigger": "placed_block",
       "conditions": {
-        "block": "ender_chest"
+        "location": [
+          {
+            "block": "minecraft:ender_chest",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
       }
     }
   },

@@ -2,15 +2,9 @@
   "parent": "tut:story/enchant_item",
   "criteria": {
     "craft_grindstone": {
-      "trigger": "inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "grindstone"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:grindstone"
       }
     }
   },

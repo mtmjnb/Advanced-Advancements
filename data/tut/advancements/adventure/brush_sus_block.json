@@ -4,19 +4,27 @@
     "brush_sus_block": {
       "trigger": "item_used_on_block",
       "conditions": {
-        "item": {
-          "items": [
-            "minecraft:brush"
-          ]
-        },
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:suspicious_sand",
-              "minecraft:suspicious_gravel"
-            ]
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:brush"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:suspicious_sand",
+                  "minecraft:suspicious_gravel"
+                ]
+              }
+            }
           }
-        }
+        ]
       }
     }
   },

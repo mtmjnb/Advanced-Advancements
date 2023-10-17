@@ -2,16 +2,10 @@
   "parent": "tut:story/place_door",
   "criteria": {
     "chest": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:chest"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+        "recipe_id": "minecraft:chest"
+      }
     }
   },
   "display": {

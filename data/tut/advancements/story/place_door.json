@@ -3,9 +3,14 @@
     "place_door": {
       "trigger": "placed_block",
       "conditions": {
-        "item": {
-          "tag": "doors"
-        }
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "doors"
+            }
+          }
+        ]
       }
     }
   },
