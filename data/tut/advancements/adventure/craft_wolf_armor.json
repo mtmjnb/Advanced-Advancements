@@ -1,0 +1,33 @@
+{
+  "parent": "tut:adventure/brush_armadillo",
+  "criteria": {
+    "craft_wolf_armor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wolf_armor"
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:wolf_armor"
+    },
+    "frame": "task",
+    "title": {
+      "translate": "advancements.adventure.craft_wolf_armor.title",
+      "fallback": "He Protec"
+    },
+    "description": {
+      "translate": "advancements.adventure.craft_wolf_armor.description",
+      "fallback": "Craft Wolf Armor"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "craft_wolf_armor"
+    ]
+  ]
+}

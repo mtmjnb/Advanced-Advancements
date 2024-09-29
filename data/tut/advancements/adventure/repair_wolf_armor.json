@@ -1,5 +1,5 @@
 {
-  "parent": "tut:adventure/brush_armadillo",
+  "parent": "tut:adventure/craft_wolf_armor",
   "criteria": {
     "repair_wolf_armor": {
       "conditions": {
