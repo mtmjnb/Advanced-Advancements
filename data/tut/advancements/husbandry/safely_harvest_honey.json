@@ -16,7 +16,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "minecraft:beehives"
+                "blocks": "#minecraft:beehives"
               },
               "smokey": true
             }
@@ -34,7 +34,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:honey_bottle"
+      "id": "minecraft:honey_bottle"
     },
     "show_toast": true,
     "title": {

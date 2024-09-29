@@ -22,7 +22,7 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:dragon_breath"
+      "id": "minecraft:dragon_breath"
     },
     "show_toast": true,
     "title": {

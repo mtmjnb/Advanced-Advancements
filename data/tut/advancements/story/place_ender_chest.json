@@ -15,7 +15,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:ender_chest"
+      "id": "minecraft:ender_chest"
     },
     "title": {
       "translate": "advancements.story.place_ender_chest.description",

@@ -10,7 +10,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:brush"
+      "id": "minecraft:brush"
     },
     "frame": "task",
     "title": {

@@ -119,7 +119,7 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:diamond_axe"
+      "id": "minecraft:diamond_axe"
     },
     "show_toast": true,
     "title": {

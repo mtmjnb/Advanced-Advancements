@@ -20,7 +20,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:shulker_shell"
+      "id": "minecraft:shulker_shell"
     },
     "show_toast": true,
     "title": {

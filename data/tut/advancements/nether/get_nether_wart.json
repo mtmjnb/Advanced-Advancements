@@ -23,7 +23,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:nether_wart"
+      "id": "minecraft:nether_wart"
     },
     "show_toast": true,
     "title": {

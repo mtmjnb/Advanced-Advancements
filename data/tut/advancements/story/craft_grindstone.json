@@ -10,7 +10,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:grindstone"
+      "id": "minecraft:grindstone"
     },
     "title": {
       "translate": "advancements.story.craft_grindstone.title",

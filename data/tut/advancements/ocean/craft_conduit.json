@@ -17,7 +17,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:conduit"
+      "id": "minecraft:conduit"
     },
     "show_toast": true,
     "title": {

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "tut:l2_pickaxes"
+            "items": "#tut:l2_pickaxes"
           }
         ]
       },
@@ -20,7 +20,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:stone_pickaxe"
+      "id": "minecraft:stone_pickaxe"
     },
     "show_toast": true,
     "title": {

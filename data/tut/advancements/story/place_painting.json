@@ -15,7 +15,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:painting"
+      "id": "minecraft:painting"
     },
     "title": {
       "translate": "advancements.story.place_painting.title",

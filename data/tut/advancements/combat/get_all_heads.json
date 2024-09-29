@@ -71,7 +71,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:creeper_head"
+      "id": "minecraft:creeper_head"
     },
     "show_toast": true,
     "title": {

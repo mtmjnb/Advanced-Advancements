@@ -30,7 +30,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:suspicious_sand"
+      "id": "minecraft:suspicious_sand"
     },
     "frame": "task",
     "title": {

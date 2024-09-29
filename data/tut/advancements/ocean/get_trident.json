@@ -23,7 +23,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:trident"
+      "id": "minecraft:trident"
     },
     "show_toast": true,
     "title": {

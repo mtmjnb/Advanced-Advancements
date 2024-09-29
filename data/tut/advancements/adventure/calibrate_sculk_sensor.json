@@ -16,7 +16,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:calibrated_sculk_sensor"
+      "id": "minecraft:calibrated_sculk_sensor"
     },
     "frame": "task",
     "title": {

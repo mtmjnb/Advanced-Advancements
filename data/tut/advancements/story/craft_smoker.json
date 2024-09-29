@@ -17,7 +17,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:smoker"
+      "id": "minecraft:smoker"
     },
     "show_toast": true,
     "title": {

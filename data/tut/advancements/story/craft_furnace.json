@@ -17,7 +17,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:furnace"
+      "id": "minecraft:furnace"
     },
     "show_toast": true,
     "title": {

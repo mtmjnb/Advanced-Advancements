@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "tut:l4_pickaxes"
+            "items": "#tut:l4_pickaxes"
           }
         ]
       },
@@ -21,7 +21,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:diamond_pickaxe"
+      "id": "minecraft:diamond_pickaxe"
     },
     "show_toast": true,
     "title": {

@@ -19,7 +19,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:prismarine"
+      "id": "minecraft:prismarine"
     },
     "show_toast": true,
     "title": {

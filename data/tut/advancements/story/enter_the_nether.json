@@ -16,7 +16,7 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:flint_and_steel"
+      "id": "minecraft:flint_and_steel"
     },
     "show_toast": true,
     "title": {

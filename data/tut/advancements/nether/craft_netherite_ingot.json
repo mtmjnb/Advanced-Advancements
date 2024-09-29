@@ -17,7 +17,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:netherite_ingot"
+      "id": "minecraft:netherite_ingot"
     },
     "show_toast": true,
     "title": {

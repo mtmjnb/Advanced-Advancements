@@ -16,7 +16,7 @@
           }
         ],
         "item": {
-          "tag": "minecraft:sniffer_food"
+          "items": "#minecraft:sniffer_food"
         }
       },
       "trigger": "minecraft:player_interacted_with_entity"
@@ -30,7 +30,7 @@
     "frame": "task",
     "hidden": true,
     "icon": {
-      "item": "minecraft:torchflower_seeds"
+      "id": "minecraft:torchflower_seeds"
     },
     "show_toast": true,
     "title": {

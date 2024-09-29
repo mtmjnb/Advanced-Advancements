@@ -34,7 +34,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:seagrass"
+      "id": "minecraft:seagrass"
     },
     "show_toast": true,
     "title": {

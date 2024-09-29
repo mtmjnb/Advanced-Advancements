@@ -18,7 +18,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:decorated_pot_sherds"
+            "items": "#minecraft:decorated_pot_sherds"
           }
         ]
       },
@@ -33,7 +33,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "archer_pottery_sherd"
+      "id": "archer_pottery_sherd"
     },
     "show_toast": true,
     "title": {

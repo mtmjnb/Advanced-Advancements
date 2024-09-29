@@ -9,7 +9,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:netherite_boots"
+      "id": "minecraft:netherite_boots"
     },
     "show_toast": true,
     "title": {
@@ -26,7 +26,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "village_plains"
+                "structures": "village_plains"
               }
             }
           }
@@ -42,7 +42,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "village_desert"
+                "structures": "village_desert"
               }
             }
           }
@@ -58,7 +58,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "village_savanna"
+                "structures": "village_savanna"
               }
             }
           }
@@ -74,7 +74,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "village_snowy"
+                "structures": "village_snowy"
               }
             }
           }
@@ -90,7 +90,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "village_taiga"
+                "structures": "village_taiga"
               }
             }
           }
@@ -106,7 +106,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "stronghold"
+                "structures": "stronghold"
               }
             }
           }
@@ -122,7 +122,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "swamp_hut"
+                "structures": "swamp_hut"
               }
             }
           }
@@ -138,7 +138,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ruined_portal"
+                "structures": "ruined_portal"
               }
             }
           }
@@ -154,7 +154,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ruined_portal_desert"
+                "structures": "ruined_portal_desert"
               }
             }
           }
@@ -170,7 +170,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ruined_portal_jungle"
+                "structures": "ruined_portal_jungle"
               }
             }
           }
@@ -186,7 +186,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ruined_portal_mountain"
+                "structures": "ruined_portal_mountain"
               }
             }
           }
@@ -202,7 +202,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ruined_portal_nether"
+                "structures": "ruined_portal_nether"
               }
             }
           }
@@ -218,7 +218,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ruined_portal_ocean"
+                "structures": "ruined_portal_ocean"
               }
             }
           }
@@ -234,7 +234,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ruined_portal_swamp"
+                "structures": "ruined_portal_swamp"
               }
             }
           }
@@ -250,7 +250,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "pillager_outpost"
+                "structures": "pillager_outpost"
               }
             }
           }
@@ -266,7 +266,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "monument"
+                "structures": "monument"
               }
             }
           }
@@ -282,7 +282,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "mineshaft_mesa"
+                "structures": "mineshaft_mesa"
               }
             }
           }
@@ -298,7 +298,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "mineshaft"
+                "structures": "mineshaft"
               }
             }
           }
@@ -314,7 +314,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "mansion"
+                "structures": "mansion"
               }
             }
           }
@@ -330,7 +330,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "jungle_pyramid"
+                "structures": "jungle_pyramid"
               }
             }
           }
@@ -346,7 +346,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "igloo"
+                "structures": "igloo"
               }
             }
           }
@@ -362,7 +362,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "fortress"
+                "structures": "fortress"
               }
             }
           }
@@ -378,7 +378,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "end_city"
+                "structures": "end_city"
               }
             }
           }
@@ -394,7 +394,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "desert_pyramid"
+                "structures": "desert_pyramid"
               }
             }
           }
@@ -410,7 +410,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "bastion_remnant"
+                "structures": "bastion_remnant"
               }
             }
           }
@@ -426,7 +426,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ancient_city"
+                "structures": "ancient_city"
               }
             }
           }
@@ -442,7 +442,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "shipwreck"
+                "structures": "shipwreck"
               }
             }
           }
@@ -458,7 +458,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "shipwreck_beached"
+                "structures": "shipwreck_beached"
               }
             }
           }
@@ -474,7 +474,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ocean_ruin_cold"
+                "structures": "ocean_ruin_cold"
               }
             }
           }
@@ -490,7 +490,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ocean_ruin_warm"
+                "structures": "ocean_ruin_warm"
               }
             }
           }

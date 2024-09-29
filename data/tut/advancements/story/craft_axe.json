@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:axes"
+            "items": "#minecraft:axes"
           }
         ]
       },
@@ -21,7 +21,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:stone_axe"
+      "id": "minecraft:stone_axe"
     },
     "show_toast": true,
     "title": {

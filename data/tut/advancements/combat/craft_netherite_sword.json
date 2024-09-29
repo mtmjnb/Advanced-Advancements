@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "tut:l4_sword"
+            "items": "#tut:l4_sword"
           }
         ]
       },
@@ -21,7 +21,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:netherite_sword"
+      "id": "minecraft:netherite_sword"
     },
     "show_toast": true,
     "title": {

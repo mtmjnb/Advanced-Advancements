@@ -9,7 +9,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:magma_block"
+      "id": "minecraft:magma_block"
     },
     "title": {
       "translate": "advancements.ocean.enter_bubble_column.title",

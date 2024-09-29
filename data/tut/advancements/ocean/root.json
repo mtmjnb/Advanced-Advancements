@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "ocean"
+                "biomes": "ocean"
               }
             }
           }
@@ -25,7 +25,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "cold_ocean"
+                "biomes": "cold_ocean"
               }
             }
           }
@@ -41,7 +41,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "deep_ocean"
+                "biomes": "deep_ocean"
               }
             }
           }
@@ -57,7 +57,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "warm_ocean"
+                "biomes": "warm_ocean"
               }
             }
           }
@@ -73,7 +73,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "frozen_ocean"
+                "biomes": "frozen_ocean"
               }
             }
           }
@@ -89,7 +89,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "lukewarm_ocean"
+                "biomes": "lukewarm_ocean"
               }
             }
           }
@@ -105,7 +105,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "deep_cold_ocean"
+                "biomes": "deep_cold_ocean"
               }
             }
           }
@@ -121,7 +121,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "deep_frozen_ocean"
+                "biomes": "deep_frozen_ocean"
               }
             }
           }
@@ -137,7 +137,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "deep_lukewarm_ocean"
+                "biomes": "deep_lukewarm_ocean"
               }
             }
           }
@@ -147,7 +147,7 @@
   },
   "display": {
     "icon": {
-      "item": "water_bucket"
+      "id": "water_bucket"
     },
     "title": {
       "translate": "advancements.ocean.root.title",

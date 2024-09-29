@@ -59,7 +59,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:zombie_head"
+      "id": "minecraft:zombie_head"
     },
     "show_toast": true,
     "title": {

@@ -32,7 +32,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:verdant_froglight"
+      "id": "minecraft:verdant_froglight"
     },
     "show_toast": true,
     "title": {

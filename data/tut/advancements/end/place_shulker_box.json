@@ -15,7 +15,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:shulker_box"
+      "id": "minecraft:shulker_box"
     },
     "title": {
       "translate": "advancements.end.place_shulker_box.title",

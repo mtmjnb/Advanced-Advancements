@@ -23,7 +23,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:ghast_tear"
+      "id": "minecraft:ghast_tear"
     },
     "show_toast": true,
     "title": {

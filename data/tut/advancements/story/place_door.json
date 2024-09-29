@@ -7,7 +7,7 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "tag": "doors"
+              "items": "#minecraft:doors"
             }
           }
         ]
@@ -16,7 +16,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:oak_door"
+      "id": "minecraft:oak_door"
     },
     "title": {
       "translate": "advancements.story.place_door.title",

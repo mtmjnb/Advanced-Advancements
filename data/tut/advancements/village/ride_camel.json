@@ -14,7 +14,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:cactus"
+      "id": "minecraft:cactus"
     },
     "title": {
       "translate": "advancements.village.ride_camel.title",

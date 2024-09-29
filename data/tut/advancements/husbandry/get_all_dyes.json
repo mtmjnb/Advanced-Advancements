@@ -203,7 +203,7 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:magenta_dye"
+      "id": "minecraft:magenta_dye"
     },
     "show_toast": true,
     "title": {

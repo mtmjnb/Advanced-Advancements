@@ -59,7 +59,7 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:chainmail_chestplate"
+      "id": "minecraft:chainmail_chestplate"
     },
     "show_toast": true,
     "title": {

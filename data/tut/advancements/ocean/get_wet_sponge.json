@@ -23,7 +23,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:wet_sponge"
+      "id": "minecraft:wet_sponge"
     },
     "show_toast": true,
     "title": {

@@ -28,7 +28,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:bow"
+      "id": "minecraft:bow"
     },
     "show_toast": true,
     "title": {

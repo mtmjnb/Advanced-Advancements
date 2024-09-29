@@ -13,7 +13,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:saddle"
+      "id": "minecraft:saddle"
     },
     "title": {
       "translate": "advancements.adventure.ride_skeleton_horse.title",

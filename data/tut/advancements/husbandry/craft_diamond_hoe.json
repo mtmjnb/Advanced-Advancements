@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "tut:l4_hoes"
+            "items": "#tut:l4_hoes"
           }
         ]
       },
@@ -21,7 +21,7 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:diamond_hoe"
+      "id": "minecraft:diamond_hoe"
     },
     "show_toast": true,
     "title": {

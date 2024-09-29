@@ -119,7 +119,7 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:netherite_hoe"
+      "id": "minecraft:netherite_hoe"
     },
     "show_toast": true,
     "title": {

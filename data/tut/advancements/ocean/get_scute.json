@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "scute"
+              "turtle_scute"
             ]
           }
         ]
@@ -23,7 +23,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:scute"
+      "id": "minecraft:turtle_scute"
     },
     "show_toast": true,
     "title": {

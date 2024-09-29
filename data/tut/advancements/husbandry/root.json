@@ -14,7 +14,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:hay_block"
+      "id": "minecraft:hay_block"
     },
     "show_toast": false,
     "title": {

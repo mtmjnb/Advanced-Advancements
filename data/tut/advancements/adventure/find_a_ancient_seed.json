@@ -17,7 +17,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:torchflower_seeds"
+      "id": "minecraft:torchflower_seeds"
     },
     "frame": "task",
     "title": {

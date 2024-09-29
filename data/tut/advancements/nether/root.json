@@ -16,7 +16,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:netherrack"
+      "id": "minecraft:netherrack"
     },
     "show_toast": false,
     "title": {

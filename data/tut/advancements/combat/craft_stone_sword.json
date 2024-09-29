@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "tut:l2_sword"
+            "items": "#tut:l2_sword"
           }
         ]
       },
@@ -21,7 +21,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:stone_sword"
+      "id": "minecraft:stone_sword"
     },
     "show_toast": true,
     "title": {

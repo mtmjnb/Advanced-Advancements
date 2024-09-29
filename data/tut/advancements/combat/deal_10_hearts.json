@@ -14,7 +14,7 @@
   },
   "display": {
     "icon": {
-      "item": "netherite_axe"
+      "id": "netherite_axe"
     },
     "title": {
       "translate": "advancements.combat.deal_10_hearts.title",

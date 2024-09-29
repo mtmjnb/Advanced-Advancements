@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "shipwreck"
+                "structures": "shipwreck"
               }
             }
           }
@@ -25,7 +25,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "shipwreck_beached"
+                "structures": "shipwreck_beached"
               }
             }
           }
@@ -41,7 +41,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ocean_ruin_cold"
+                "structures": "ocean_ruin_cold"
               }
             }
           }
@@ -57,7 +57,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "ocean_ruin_warm"
+                "structures": "ocean_ruin_warm"
               }
             }
           }
@@ -75,7 +75,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:oak_planks"
+      "id": "minecraft:oak_planks"
     },
     "show_toast": true,
     "title": {

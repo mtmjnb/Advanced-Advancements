@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "tut:weapons"
+            "items": "#tut:weapons"
           }
         ]
       },
@@ -21,7 +21,7 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:wooden_sword"
+      "id": "minecraft:wooden_sword"
     },
     "show_toast": true,
     "title": {

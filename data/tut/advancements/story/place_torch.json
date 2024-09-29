@@ -7,7 +7,7 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "tag": "tut:torches"
+              "items": "#tut:torches"
             }
           }
         ]
@@ -16,7 +16,7 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:torch"
+      "id": "minecraft:torch"
     },
     "title": {
       "translate": "advancements.story.place_torch.title",

@@ -42,7 +42,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:water_bucket"
+      "id": "minecraft:water_bucket"
     },
     "show_toast": true,
     "title": {

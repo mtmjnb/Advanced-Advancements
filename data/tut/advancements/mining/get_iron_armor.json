@@ -58,8 +58,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:iron_chestplate",
-      "nbt": "{Damage:0}"
+      "id": "minecraft:iron_chestplate"
     },
     "show_toast": true,
     "title": {
