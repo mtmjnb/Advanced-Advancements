@@ -1,6 +1,20 @@
 {
   "parent": "tut:husbandry/breed_an_animal",
   "criteria": {
+    "minecraft:armadillo": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:armadillo"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    },
     "minecraft:camel": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
@@ -381,6 +395,9 @@
     }
   },
   "requirements": [
+    [
+      "minecraft:armadillo"
+    ],
     [
       "minecraft:camel"
     ],
